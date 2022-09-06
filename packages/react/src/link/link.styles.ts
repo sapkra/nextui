@@ -4,7 +4,7 @@ import {cssFocusVisible} from "../theme/shared-css";
 export const StyledLinkIcon = styled("svg", {
   ml: "$1",
   as: "center",
-  display: "flex",
+  display: "inline-flex",
   color: "currentColor",
 });
 
@@ -12,7 +12,7 @@ export const StyledLink = styled(
   "a",
   {
     $$linkColor: "$colors$link",
-    display: "flex",
+    display: "inline-flex",
     alignItems: "center",
     lineHeight: "inherit",
     textDecoration: "none",
